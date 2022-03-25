@@ -1,0 +1,29 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    font-weight: 200;
+    font-size: 25px;
+}
+.header h1+p{
+    font-weight: 600;
+    font-size:25px;
+}
+.header p:last-of-type{
+    color: #a39f9f;
+    font-weight: 400;
+    font-size: 12px;
+    width: 26rem;
+    margin:15px auto 20px;
+    line-height: 1.6;
+}
